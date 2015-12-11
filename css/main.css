@@ -26,6 +26,13 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+/* to make text look better*/
+
+#about-us , #why-vp {
+	font-size: 1.1em; 
+	line-height: 1.5em; 
+}
+
 body {
   padding-top: 80px;
   color: #34495e;
@@ -702,10 +709,12 @@ ul.tag-cloud li {
   background: #4f7dd4;
 }
 .btn-social.btn-facebook:hover {
-  background: #789bde;
+  background: #63abf1;
+    /*#789bde;*/
 }
 .btn-social.btn-twitter {
   background: #5bceff;
+			  
 }
 .btn-social.btn-twitter:hover {
   background: #8eddff;
@@ -714,7 +723,14 @@ ul.tag-cloud li {
   background: #21a6d8;
 }
 .btn-social.btn-linkedin:hover {
-  background: #49b9e3;
+  background: #84f9e3;
+}
+
+.btn-social.btn-instagram {
+  background: #3F729B;
+}
+.btn-social.btn-instagram :hover{
+  background: #6585E1;
 }
 .btn-social.btn-google-plus {
   background: #dc422b;
@@ -1185,3 +1201,16 @@ ul.faq li > div h3 {
 }
 
 /*   End of sign up   */
+
+/* image text block*/
+
+.left {
+	position: relative;
+	float: left;
+
+}
+
+.right {
+	position: relative;
+	foat: right;
+}
