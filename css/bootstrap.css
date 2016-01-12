@@ -1287,7 +1287,7 @@ blockquote {
   border-left: 5px solid #eee;
 }
 blockquote p:last-child,
-blockquote ul:last-child,
+	ul:last-child,
 blockquote ol:last-child {
   margin-bottom: 0;
 }
@@ -3641,6 +3641,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 .nav > li {
   position: relative;
@@ -3650,6 +3651,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
+  
+  /* changed it to bold*/
+  
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3836,6 +3840,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  
 }
 @media (min-width: 768px) {
   .navbar {
@@ -5907,6 +5912,8 @@ button.close {
   opacity: .5;
 }
 .carousel-control.left {
+
+  
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
@@ -5915,6 +5922,7 @@ button.close {
   background-repeat: repeat-x;
 }
 .carousel-control.right {
+  
   right: 0;
   left: auto;
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);

@@ -1,0 +1,176 @@
+
+/* Start of sign up */
+
+.up_form{
+  width: 600px;
+  height: 1100px;
+  background-color: appworkspace;
+  margin: 0px auto;
+  padding-top: 20px;
+  border-radius: 10px;
+  float:contour;
+}
+
+.up_form input[type="text"],
+.up_form input[type="
+word"]
+{
+  display: block;
+  width: 500px;
+  height: 35px;
+  margin: 15px auto;
+  background: #fff;
+  border: 0px;
+  padding: 8px;
+  font-size: 16px;
+   border: 3px solid #fff;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+
+.up_form input[type="text"]:hover ,
+.up_form input[type="password"]:hover
+{
+  transition: all 0.5s;
+  border: 2px solid #284a61;
+  background-color:#18679c;
+}
+/* changed border color to blue old(260b32) bg old(a58ab2) */
+
+.up_form input[type="text"]:focus ,
+.up_form input[type="password"]:focus
+{
+  border: 2px solid #2d0b32;
+  background-color:#a9d8f7;
+}
+
+/* changed from #c9b9d0*/
+
+.up_form input[type="submit"]{
+  display: block;
+  background: #18679c;/*#260b32;*/
+  width: 250px;
+  padding: 12px;
+  cursor: pointer;
+  color: #fff;
+  border: 0px;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.up_form input[type="submit"]:hover{
+  background: #a9d8f7;/*#5d2d74*/
+}
+
+.up_form a{
+
+  text-align: center;
+  font-family: Arial;
+  color: gray;
+  display: block;
+  margin: 15px auto;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  font-size: 16px;
+}
+
+.up_form a:hover{
+  color: #1abc9d;
+}
+
+/*   End of sign up   */
+
+/* image text block*/
+
+.left {
+	position: relative;
+	float: left;
+
+}
+
+.right {
+	position: relative;
+	foat: right;
+}
+
+
+/* Start of Download page */
+
+.download_pass{
+  width: 100%;
+  height: 320px;
+  background-color: appworkspace;
+  margin: 0px auto;
+  padding-top: 20px;
+  border-radius: 10px;
+  float:contour;
+}
+
+.download_pass input[type="text"],
+.download_pass input[type="password"]
+{
+  display: block;
+  width: 500px;
+  height: 35px;
+  margin: 15px auto;
+  background: #fff;
+  border: 0px;
+  padding: 8px;
+  font-size: 16px;
+   border: 3px solid #fff;
+  transition: all 0.5s;
+  border-radius: 5px;
+  color: #669ac3;
+}
+
+.download_pass input[type="text"]:hover ,
+.download_pass input[type="password"]:hover
+{
+  transition: all 0.5s;
+  border: 2px solid #260b32;
+  background-color:#3378af;
+}
+
+
+.download_pass input[type="text"]:focus ,
+.download_pass input[type="password"]:focus
+{
+  border: 2px solid #2d0b32;
+  background-color:#ccddeb;
+}
+
+.download_pass input[type="submit"]{
+  display: block;
+  background: #01579b;
+  width: 250px;
+  padding: 12px;
+  cursor: pointer;
+  color: #fff;
+  border: 0px;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.download_pass input[type="submit"]:hover{
+  background: #3378af;
+}
+
+
+/*   End of Download page   */
+
+.instruction{
+  width: 100%;
+  height: 320px;
+  background-color: black;
+  margin: 0px;
+  color: white;
+  padding-top: 20px;
+  padding-left:20px;
+  padding-right:20px;
+  border-radius: 10px;
+  float:contour;
+}

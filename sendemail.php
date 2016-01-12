@@ -4,6 +4,11 @@
 		'type'=>'success',
 		'message'=>'Email sent!'
 	);
+	
+	$failure = array(
+		'type' => 'failure',
+		'message' => 'Email not sent!'
+	);
 
     $name = @trim(stripslashes($_POST['name'])); 
     $email = @trim(stripslashes($_POST['email'])); 
@@ -11,11 +16,13 @@
     $message = @trim(stripslashes($_POST['message'])); 
 
     $email_from = $email;
-    $email_to = 'email@gmail.com';
+    $email_to = 'vishwapreneur@gmail.com';
 
     $body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Message: ' . $message;
 
     $success = @mail($email_to, $subject, $body, 'From: <'.$email_from.'>');
-
-    echo json_encode($status);
+    if ( $success )
+    	echo json_encode($status);
+    else
+    	echo json_encode($failure);
     die;
